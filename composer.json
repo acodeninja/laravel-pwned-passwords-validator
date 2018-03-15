@@ -1,5 +1,5 @@
 {
-  "name": "acodeninja/laravel-pwned-validation",
+  "name": "acodeninja/laravel-pwned-passwords-validator",
   "description": "Validation package that checks Pwned Passwords to validate passwords https://haveibeenpwned.com/Passwords",
   "type": "library",
   "license": "MPL-2.0",
