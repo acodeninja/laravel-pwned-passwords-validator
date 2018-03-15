@@ -1,0 +1,36 @@
+{
+  "name": "acodeninja/laravel-pwned-validation",
+  "description": "Validation package that checks Pwned Passwords to validate passwords https://haveibeenpwned.com/Passwords",
+  "type": "library",
+  "license": "MPL-2.0",
+  "authors": [
+    {
+      "name": "Lawrence",
+      "email": "lawrence@acode.ninja"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ACodeNinja\\PwnedPasswordsValidator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ACodeNinja\\PwnedPasswordsValidator\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ACodeNinja\\PwnedPasswordsValidator\\ServiceProvider"
+      ]
+    }
+  }
+}
